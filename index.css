@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEA47F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #00539C;
+}
+
+a {
+    padding: 20px 45px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header :hover {
+    background-color: #EEA47F;
+    color: #00539C;
+    border-bottom: solid black;
+}
+
+#name {
+    text-align: center;
+    font-size: 50px;
+    color: #00539C;
+    padding: 250px 300px 0px 300px;
+}
+
+#subheading {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: lighter;
+    font-style: italic
+}
+
+#intro {
+    margin-bottom: 250px;
+}
+
+#projects {
+    background-color: #00539C;
+    width: 100%;
+    height: 150px;
+}
+
+.white {
+    color: whitesmoke
+}
+
+#projects-h1 {
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:50px;
+}
